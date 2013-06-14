@@ -1,6 +1,8 @@
 TEMPLATE = app
 TARGET = webkit_server
 DESTDIR = .
+QMAKE_CXX = g++
+QMAKE_CC = gcc
 HEADERS = \
   Version.h \
   EnableLogging.h \
